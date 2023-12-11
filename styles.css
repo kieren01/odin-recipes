@@ -13,8 +13,10 @@
     width:600px;
     height:auto;
   }
+
   button {
     font-size: 20px;
+
 }
 
     .text {
@@ -27,5 +29,28 @@
 
     .chicken-sandwich-ingredients {
         list-style-type: '🥪';
-    }
+        /* Splitting ingredients into 2 columns */
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
 
+     }
+
+     *{
+        text-decoration: none;
+    }
+    .navbar{
+        background: crimson; font-family: calibri; padding-right: 15px;padding-left: 15px;
+    }
+    .navdiv{
+        display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo a{
+        font-size: 35px; font-weight: 600; color: white;
+    }
+    li{
+        list-style: none; display: inline-block;
+    }
+    li a{
+        color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+    }
