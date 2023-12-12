@@ -36,21 +36,70 @@
 
      }
 
-     *{
-        text-decoration: none;
-    }
+
     .navbar{
-        background: crimson; font-family: calibri; padding-right: 15px;padding-left: 15px;
+        background: white;
+        font-family: calibri; 
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: 0;
     }
     .navdiv{
-        display: flex; align-items: center; justify-content: space-between;
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between;
+    }
+    .navdiv button{
+        margin-right: 1rem;
+        
+
+
     }
     .logo a{
-        font-size: 35px; font-weight: 600; color: white;
+        font-size: 18px; 
+        font-weight: 600; 
+        color: grey;
+        text-decoration: none;
     }
-    li{
+    .navbar li{
         list-style: none; display: inline-block;
     }
+
     li a{
-        color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+        color: grey; 
+        font-size: 18px; 
+        font-weight: bold; 
+        margin-right: 25px;
+        text-decoration: none;
     }
+
+    .container {
+        display: flex;
+      }
+
+    .left-section,
+    .right-section {
+  flex: 1; /* Equal width for both sections */
+  padding: 0px;
+  margin: auto;
+  
+}
+    .right-section img {
+        width: 900px;
+        height: auto;
+    }
+    
+    .left-section h1{
+        font-size: 100px;
+        margin-bottom:0px;
+        margin-top: 0px;
+        font-family: serif;
+    }
+    .left-section p{
+        width: 300px;
+        height:auto;
+        color: grey;
+        font-style: italic;
+    }
+
